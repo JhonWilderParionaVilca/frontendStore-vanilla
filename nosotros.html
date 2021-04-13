@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Store</title>
+    <!-- *RESET -->
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- *fONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <!-- *PERSONALIZE -->
+    <link rel="preload" href="css/global.css" as="style" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- BEM se da clases a todo lo q tenga representación(vemos) y necesiten estilos -->
+    <!-- Bloques son piezas independientes -->
+    <!-- Elemenentos forman parte de un bloque y dependen de ellos-->
+    <header class="header">
+      <a href="/">
+        <img class="header__logo" src="img/logo.png" alt="Frontend Store" />
+      </a>
+    </header>
+
+    <nav class="navegation">
+      <a class="navegation__link" href="/">Tienda</a>
+      <a class="navegation__link navegation__link--active" href="/nosotros.html"
+        >nosotros</a
+      >
+    </nav>
+
+    <main class="container">
+      <section>
+        <h1>SOBRE Nosotros</h1>
+
+        <div class="about">
+          <div class="about__txt">
+            <p>
+              Repudiandae culpa molestias natus sint beatae adipisci qui,
+              quaerat ullam officia. Optio maiores id Magnam adipisci deserunt
+              nesciunt possimus at animi optio quo porro eius illo libero quam
+              minima veritatis, quibusdam non earum distinctio eaque eligendi.
+              Amet Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Ipsa vero ea placeat asperiores fuga corporis modi consequuntur.
+              Neque, facere reiciendis asperiores cupiditate quidem eius odio,
+              aspernatur commodi quam ab harum.
+            </p>
+            <p>
+              sapiente laborum error iure adipisci non suscipit distinctio
+              veniam beatae harum totam aliquid ea iste, exercitationem nam sunt
+              dicta rerum! Ipsa.
+            </p>
+          </div>
+          <div class="about__img"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>¿Por qué comprar con nosotros?</h2>
+
+        <div class="reasons">
+          <div class="reason">
+            <img src="img/icono_1.png" alt="Economico" />
+            <h3 class="reason__title">Economico</h3>
+            <p>
+              Quisquam officia eaque ut maiores nemo dolore qui tenetur ab in
+              tempore odio quos amet beatae at accusantium obcaecati, error ea
+              quidem.
+            </p>
+          </div>
+          <!-- reason -->
+          <div class="reason">
+            <img src="img/icono_2.png" alt="Devs" />
+            <h3 class="reason__title">Devs</h3>
+            <p>
+              Quisquam officia eaque ut maiores nemo dolore qui tenetur ab in
+              tempore odio quos amet beatae at accusantium obcaecati, error ea
+              quidem.
+            </p>
+          </div>
+          <!-- reason -->
+          <div class="reason">
+            <img src="img/icono_3.png" alt="Delivery" />
+            <h3 class="reason__title">Delivery</h3>
+            <p>
+              Quisquam officia eaque ut maiores nemo dolore qui tenetur ab in
+              tempore odio quos amet beatae at accusantium obcaecati, error ea
+              quidem.
+            </p>
+          </div>
+          <!-- reason -->
+          <div class="reason">
+            <img src="img/icono_4.png" alt="Seguro" />
+            <h3 class="reason__title">Seguro</h3>
+            <p>
+              Quisquam officia eaque ut maiores nemo dolore qui tenetur ab in
+              tempore odio quos amet beatae at accusantium obcaecati, error ea
+              quidem.
+            </p>
+          </div>
+          <!-- reason -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">
+        Todos los derechos reservados
+        <a
+          class="footer__link"
+          href="http://github.com/wilderPariona"
+          target="_blank"
+          rel="noopener noreferrer"
+          >wilderPariona</a
+        >
+        @ 2020
+      </p>
+    </footer>
+  </body>
+</html>
