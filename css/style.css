@@ -30,7 +30,7 @@
   color: var(--white);
   font-family: var(--font-primary);
   font-size: 3rem;
-  margin-right: 2rem; /* en vez de gap */
+  margin-right: 2.765rem; /* en vez de gap */
 }
 /* Elimina el margen derecho del ultimo elemento */
 .navegation__link:last-of-type {
@@ -39,5 +39,24 @@
 
 .navegation__link--active,
 .navegation__link:hover {
+  color: var(--secondary-500);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  *$Footer                                  */
+/* -------------------------------------------------------------------------- */
+.footer {
+  background-color: var(--primary-900);
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer__text {
+  font-family: var(--font-primary);
+  text-align: center;
+  font-size: 1.92rem;
+}
+
+.footer__link {
   color: var(--secondary-500);
 }
