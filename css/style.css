@@ -2,3 +2,42 @@
   max-width: 102.4rem;
   margin: 0 auto;
 }
+
+/* -------------------------------------------------------------------------- */
+/**                                  $Header                                  */
+/* -------------------------------------------------------------------------- */
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__logo {
+  margin: 3rem 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    *$Nav                                   */
+/* -------------------------------------------------------------------------- */
+.navegation {
+  background-color: var(--primary-900);
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  /* gap: 2rem; NO es soportado completamente 2020 */
+}
+
+.navegation__link {
+  color: var(--white);
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  margin-right: 2rem; /* en vez de gap */
+}
+/* Elimina el margen derecho del ultimo elemento */
+.navegation__link:last-of-type {
+  margin-right: 0;
+}
+
+.navegation__link--active,
+.navegation__link:hover {
+  color: var(--secondary-500);
+}

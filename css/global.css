@@ -36,7 +36,7 @@ html {
 }
 body {
   background-color: var(--primary-500);
-  font-size: 16rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   font-family: var(--font-secondary);
 }
@@ -52,7 +52,7 @@ body {
 }
 
 /* -------------------------------------------------------------------------- */
-/**                              $ResponsiveImg                               */
+/**                              $ImgResponsive                               */
 /* -------------------------------------------------------------------------- */
 img {
   max-width: 100%;

@@ -21,6 +21,18 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Hello world</h1>
+    <!-- BEM se da clases a todo lo q tenga representación(vemos) y necesiten estilos -->
+    <!-- Bloques son piezas independientes -->
+    <!-- Elemenentos forman parte de un bloque y dependen de ellos-->
+    <header class="header">
+      <a href="/">
+        <img class="header__logo" src="img/logo.png" alt="Frontend Store" />
+      </a>
+    </header>
+
+    <nav class="navegation">
+      <a class="navegation__link navegation__link--active" href="#">Tienda</a>
+      <a class="navegation__link" href="#">nosotros</a>
+    </nav>
   </body>
 </html>
